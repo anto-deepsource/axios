@@ -537,6 +537,7 @@ describe('supports http with nodejs', function () {
       console.log('responseBody', responseBody);
       console.log('responseBody', responseBody);
       console.log('responseBody', responseBody);
+      console.log('responseBody', responseBody);
 
       for (const [typeName, zipped] of Object.entries({
         gzip: gzip(responseBody),
